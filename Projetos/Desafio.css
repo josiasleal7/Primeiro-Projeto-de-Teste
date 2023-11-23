@@ -1,0 +1,144 @@
+* {
+    font-family:'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.logo-imagem {
+    width: 580px;
+    height: 500px;
+    flex-shrink: 0;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin-bottom: 47px;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+.link-dois {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+    margin: 125px;
+}
+
+ @media screen and (max-width: 900px) {
+    .link-header {
+        color: #17233D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.875px;
+        margin-right: 32px;
+        cursor: pointer;
+        display: none;
+    }
+    
+   
+    section {
+        position: relative;
+        bottom: 550px;
+        text-align: center;
+    }
+
+    .button-header {
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        width: 124px;
+        height: 51px;
+        flex-shrink: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin: 0 600px;
+    }
+
+    .logo-imagem {
+        width: 520px;
+        height: 450px;
+        position: relative;
+        top: 600px;
+    }
+
+p {
+        width: 493px;
+        color: #4B505A;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-bottom: 55px;
+        margin-left: 40px;
+    }
+   
+}
+
